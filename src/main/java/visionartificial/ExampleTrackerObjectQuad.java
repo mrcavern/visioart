@@ -19,16 +19,7 @@ import java.awt.image.BufferedImage;
 import com.github.sarxos.webcam.Webcam;
 
 /**
- * Demonstration on how to use the high level {@link TrackerObjectQuad} interface for tracking objects in a
- * video sequence.  This interface allows the target to be specified using an arbitrary quadrilateral.  Specific
- * implementations might not support that shape, so they instead will track an approximation of it.  The
- * interface also allows information on target visibility to be returned.  As is usually the case, tracker
- * specific information is lost in the high level interface and you should consider using the trackers
- * directly if more control is needed.
- *
- * This is an active area of research and all of the trackers eventually diverge given a long enough sequence.
- *
- * @author Peter Abeles
+ * @author dcuevas
  */
 public class ExampleTrackerObjectQuad {
 
